@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ASESampleShaders_Water_FrencelSampleScrSp
+  m_Shader: {fileID: 4800000, guid: f0cb7674c7dc3e641882f40d894722bf, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AddCol:
+        m_Texture: {fileID: 2800000, guid: 96789baf9ef4a054c9ec5a94a71a87d1, type: 3}
+        m_Scale: {x: 111, y: 111}
+        m_Offset: {x: 0, y: 0}
+    - _DisolveGuide1:
+        m_Texture: {fileID: 2800000, guid: 5798ded558355430c8a9b13ee12a847c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisolveGuide2:
+        m_Texture: {fileID: 2800000, guid: 9670904ec41723446943d2bfc39209fa, type: 3}
+        m_Scale: {x: 11, y: 11}
+        m_Offset: {x: 0, y: 0}
+    - _DisolveGuide3:
+        m_Texture: {fileID: 2800000, guid: 9670904ec41723446943d2bfc39209fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam:
+        m_Texture: {fileID: 2800000, guid: b3792c50aed9465489732cb8962693ec, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 5798ded558355430c8a9b13ee12a847c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 2800000, guid: 9a4a55d8d2e54394d97426434477cdcf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AnimDivB: 1
+    - _AnimDivB1: 0.1
+    - _AnimDivC: -1
+    - _AnimDivC1: -0.1
+    - _Distortion: 0.5
+    - _FoamDepth: 0
+    - _FoamFalloff: 0
+    - _FoamSmoothness: 0
+    - _FoamSpecular: 0
+    - _FrMul: 9
+    - _FrMul2: -44
+    - _NormalScale: 0
+    - _WaterDepth: 0
+    - _WaterFalloff: 0
+    - _WaterSmoothness: 0
+    - _WaterSpecular: 0
+    - __dirty: 0
+    m_Colors:
+    - _DeepColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Frenc: {r: 1, g: 0.016675571, b: 0, a: 1}
+    - _ShalowColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
