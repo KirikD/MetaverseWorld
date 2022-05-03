@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FlatProjectShader
-  m_Shader: {fileID: 4800000, guid: e3c80455d703d80439a4d8c9b9af17e8, type: 3}
+  m_Name: 2DtileFFragmentMat
+  m_Shader: {fileID: 4800000, guid: 990fa0ca6d74ef34f9262f4fd71ae397, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 6e6cba53deb4f4e41a81667b73a1ca42, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BurnRamp:
@@ -28,37 +28,33 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisolveGuide1:
-        m_Texture: {fileID: 2800000, guid: 9cc702118bd6cab469286d448e956b0d, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Texture: {fileID: 2800000, guid: 3d872cba1301b6c4c9f02c9903019b14, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisolveGuide2:
-        m_Texture: {fileID: 2800000, guid: 9cc702118bd6cab469286d448e956b0d, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Texture: {fileID: 2800000, guid: 3d872cba1301b6c4c9f02c9903019b14, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissA:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0688235f1fee46b4581bcc1cf189cf3a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 02d2e693b08407a45a2e72f9cb0d7e20, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Texture: {fileID: 2800000, guid: 5b653e484c8e303439ef414b62f969f0, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AnimDivA: -1
-    - _AnimDivB: 0.4
-    - _AnimDivC: -0.4
+    - _AnimDivA: 0.04
+    - _AnimDivB: 0.11
     - _Cutoff: 0.5
-    - _Displace: 0.01
-    - _DissolveAmount: 1.05
-    - _SizeLines: 9
+    - _Displace: 0.124
+    - _DissolveAmount: 0.91
     - __dirty: 0
     m_Colors:
-    - _ColorEmiss: {r: 0, g: 0.3679245, b: 0.2178739, a: 0}
-    - _ColorMain: {r: 0.12549019, g: 0.2355516, b: 1, a: 0}
-    - _MeshDrag: {r: 0, g: 0, b: 0, a: 0}
     - _MullCol: {r: 0, g: 0, b: 0, a: 0}
+    - _TilingScalBurn: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
