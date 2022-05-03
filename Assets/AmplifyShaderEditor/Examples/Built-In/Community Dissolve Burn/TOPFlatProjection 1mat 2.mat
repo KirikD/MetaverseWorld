@@ -32,12 +32,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AnimDivB: 0.15
-    - _AnimDivC: 0.15
+    - _AnimDivB: 0.05
+    - _AnimDivC: -0.04
     - _Cutoff: 0.5
-    - _Displace: -0.104
+    - _Displace: -0.067
     - _DissolveAmount: 1.15
-    - _SizeLines: 3
+    - _SizeLines: 0.17
     - __dirty: 0
     m_Colors:
     - _ColorEmiss: {r: 0.20281227, g: 0, b: 0.5660378, a: 0}

@@ -32,15 +32,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AnimDivB: 0.15
-    - _AnimDivC: 0.15
+    - _AnimDivB: 0.06
+    - _AnimDivC: -0.07
     - _Cutoff: 0.5
     - _Displace: -0.037
-    - _DissolveAmount: 1.1
-    - _SizeLines: 2.5
+    - _DissolveAmount: 1.14
+    - _SizeLines: 0.11
     - __dirty: 0
     m_Colors:
     - _ColorEmiss: {r: 1, g: 0.26634833, b: 0.06132078, a: 0}
     - _ColorMain: {r: 1, g: 0.17902724, b: 0.13679248, a: 0}
-    - _MeshDrag: {r: 0, g: 0, b: -0.005, a: 0}
+    - _MeshDrag: {r: 0, g: 0, b: 0.01, a: 0}
   m_BuildTextureStacks: []
