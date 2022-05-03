@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FlatProjectShader
-  m_Shader: {fileID: 4800000, guid: e3c80455d703d80439a4d8c9b9af17e8, type: 3}
+  m_Name: VertHoloLinesMATT
+  m_Shader: {fileID: 4800000, guid: acf8de9b12d971b4a9f78375a54276a8, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -19,46 +19,28 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Albedo:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BurnRamp:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _DisolveGuide1:
-        m_Texture: {fileID: 2800000, guid: 9cc702118bd6cab469286d448e956b0d, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Texture: {fileID: 2800000, guid: 64e7766099ad46747a07014e44d0aea1, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisolveGuide2:
         m_Texture: {fileID: 2800000, guid: 9cc702118bd6cab469286d448e956b0d, type: 3}
-        m_Scale: {x: 3, y: 3}
-        m_Offset: {x: 0, y: 0}
-    - _EmissA:
-        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
         m_Texture: {fileID: 2800000, guid: 02d2e693b08407a45a2e72f9cb0d7e20, type: 3}
-        m_Scale: {x: 3, y: 3}
-        m_Offset: {x: 0, y: 0}
-    - _texcoord:
-        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AnimDivA: -1
-    - _AnimDivB: 0.1
-    - _AnimDivC: -0.1
+    - _AnimDivB: 10
+    - _AnimDivC: 0.15
     - _Cutoff: 0.5
-    - _Displace: 0.01
-    - _DissolveAmount: 1.057
-    - _SizeLines: 1
+    - _Displace: 0
+    - _DissolveAmount: 0.712
+    - _SizeLines: 22
     - __dirty: 0
     m_Colors:
     - _ColorEmiss: {r: 0, g: 0.3679245, b: 0.2178739, a: 0}
-    - _ColorMain: {r: 0.12549019, g: 0.2355516, b: 1, a: 0}
+    - _ColorMain: {r: 0.2520217, g: 1, b: 0.1273585, a: 0}
     - _MeshDrag: {r: 0, g: 0, b: 0, a: 0}
-    - _MullCol: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
