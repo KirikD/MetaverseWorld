@@ -48,15 +48,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 3.46, y: 0.71}
     - _DisolveGuide1:
-        m_Texture: {fileID: 2800000, guid: a79d5200bcb77ae4c9f386aa998441f6, type: 3}
+        m_Texture: {fileID: 2800000, guid: e1e8b705d4387d241a09678cb58f91a7, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _DisolveGuide2:
-        m_Texture: {fileID: 2800000, guid: bffc4ea84a3a8ae4c9a1f75355ed41d7, type: 3}
+        m_Texture: {fileID: 2800000, guid: f6c065152f71690448cde6851681bacf, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _EmissA:
-        m_Texture: {fileID: 2800000, guid: 4855cd84f5ba0c344b80c8009ce51491, type: 3}
+        m_Texture: {fileID: 2800000, guid: 96789baf9ef4a054c9ec5a94a71a87d1, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -92,14 +92,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AnimDivA: 0.04
-    - _AnimDivB: 0.11
+    - _AnimDivA: -0.1
+    - _AnimDivB: 0.1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DisolveAmount: 0.451
-    - _Displace: 0.034
-    - _DissolveAmount: 1
+    - _Displace: 0.1
+    - _DissolveAmount: 1.07
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -119,6 +119,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorD: {r: 0, g: 1, b: 0.55883527, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MullCol: {r: 0.12300205, g: 0, b: 1, a: 1}
-    - _TilingScalBurn: {r: 1, g: 1, b: 1, a: 1}
+    - _MullCol: {r: 1, g: 1, b: 1, a: 1}
+    - _TilingScalBurn: {r: 22, g: 22, b: 0, a: 0}
   m_BuildTextureStacks: []

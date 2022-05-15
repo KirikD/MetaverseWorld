@@ -28,11 +28,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CheckersA1:
-        m_Texture: {fileID: 2800000, guid: 3d872cba1301b6c4c9f02c9903019b14, type: 3}
+        m_Texture: {fileID: 2800000, guid: b3792c50aed9465489732cb8962693ec, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CheckersB1:
-        m_Texture: {fileID: 2800000, guid: 4d901885c71a57041a96c5e30b1ac116, type: 3}
+        m_Texture: {fileID: 2800000, guid: b3792c50aed9465489732cb8962693ec, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Foam:
@@ -48,11 +48,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AnimDivB1: 1
-    - _AnimDivC1: -1
+    - _AnimDivB1: 0.65
+    - _AnimDivC1: -0.65
     - _Cutoff: 0.5
     - _DisplScal1: 0.01
-    - _DissolveAmount1: -2.68
+    - _DissolveAmount1: -1.71
     - _DissolveMul: 10
     - _Distortion: 0.5
     - _DrawMaskSize: 0.16
@@ -72,7 +72,7 @@ Material:
     - _FrMul1: 3399
     - _FrMul2: -44
     - _FrMulA: 4659
-    - _FrMulB: 193999
+    - _FrMulB: 203999
     - _FrMulC: 39999
     - _FrMulEnd: 0.01
     - _FrMulEndA: 0.01
@@ -92,10 +92,10 @@ Material:
     - __dirty: 0
     m_Colors:
     - _DeepColor: {r: 0, g: 0, b: 0, a: 0}
-    - _FrColorA: {r: 0.735849, g: 0.52638793, b: 0, a: 0}
-    - _FrColorB: {r: 0.20754719, g: 0.0009789985, b: 0.13994312, a: 0}
-    - _FrColorC: {r: 0, g: 0.43920055, b: 0.48235294, a: 0}
-    - _Frenc: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 0}
+    - _FrColorA: {r: 0.7372549, g: 0, b: 0.00707847, a: 0}
+    - _FrColorB: {r: 0.27723265, g: 0, b: 0.3207547, a: 0}
+    - _FrColorC: {r: 0, g: 0.6132076, b: 0.1886848, a: 0}
+    - _Frenc: {r: 0.007843138, g: 0.007843138, b: 0.007843138, a: 0}
     - _Scal1: {r: 4, g: 4, b: 0, a: 0}
     - _ShalowColor: {r: 1, g: 1, b: 1, a: 0}
     - _VectorDirection: {r: 0.1, g: 2, b: 1, a: 1}

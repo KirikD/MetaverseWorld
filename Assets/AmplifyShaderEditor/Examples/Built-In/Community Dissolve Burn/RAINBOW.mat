@@ -70,8 +70,8 @@ Material:
     m_Floats:
     - _AnimDivA: 0.04
     - _AnimDivB: 0.04
-    - _BitA: 0.18481445
-    - _BitB: 0.18859863
+    - _BitA: 0.18762207
+    - _BitB: 0.18676758
     - _BitHighMinScale: 0.23
     - _Cutoff: 0.5
     - _CutoutScale: 0

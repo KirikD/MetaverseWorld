@@ -37,10 +37,10 @@ Material:
     - _Cutoff: 0.5
     - _Displace: -0.01
     - _DissolveAmount: 1.14
-    - _SizeLines: 0.15
+    - _SizeLines: 1
     - __dirty: 0
     m_Colors:
-    - _ColorEmiss: {r: 0.35559294, g: 1, b: 0.09019607, a: 0}
+    - _ColorEmiss: {r: 0.27978888, g: 0.13679248, b: 1, a: 0}
     - _ColorMain: {r: 0.07058823, g: 1, b: 0.7611075, a: 0}
-    - _MeshDrag: {r: -0.005, g: -0.005, b: -0.03, a: 0}
+    - _MeshDrag: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
