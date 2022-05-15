@@ -31,6 +31,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: 84508b93f15f2b64386ec07486afc7a3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _CheckersA:
+        m_Texture: {fileID: 2800000, guid: 4d901885c71a57041a96c5e30b1ac116, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CheckersB:
+        m_Texture: {fileID: 2800000, guid: 4d901885c71a57041a96c5e30b1ac116, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _TextureSample0:
         m_Texture: {fileID: 2800000, guid: 4d901885c71a57041a96c5e30b1ac116, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -41,8 +49,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cutoff: 0.5
-    - _DisplScal: 0.1
-    - _DissolveAmount: 0.41
+    - _DisplScal: 0.01
+    - _DissolveAmount: 0.291
     - _DissolveAmount1: 0.28
     - _Min: 2
     - _MinScal: 2

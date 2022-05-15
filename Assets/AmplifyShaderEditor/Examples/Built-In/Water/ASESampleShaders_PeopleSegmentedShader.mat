@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ASESampleShaders_PeopleSegmentedShader
+  m_Shader: {fileID: 4800000, guid: a66b224d48169f0489c88b61022bb349, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AddCol:
+        m_Texture: {fileID: 2800000, guid: 12b4af6ad99ddab4d8cb7fd850a358ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CheckersA1:
+        m_Texture: {fileID: 2800000, guid: 3d872cba1301b6c4c9f02c9903019b14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CheckersB1:
+        m_Texture: {fileID: 2800000, guid: 4d901885c71a57041a96c5e30b1ac116, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam:
+        m_Texture: {fileID: 2800000, guid: 2861704728ea79f479cabb70dd2fe923, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 2800000, guid: f5453dca2ac649e4182c56a3966ad395, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AnimDivB1: 1
+    - _AnimDivC1: -1
+    - _Cutoff: 0.5
+    - _DisplScal1: 0.01
+    - _DissolveAmount1: -2.68
+    - _DissolveMul: 10
+    - _Distortion: 0.5
+    - _DrawMaskSize: 0.16
+    - _FoamDepth: 0
+    - _FoamFalloff: 0
+    - _FoamSmoothness: 0
+    - _FoamSpecular: 0
+    - _FrAdd1: 0
+    - _FrAddA: 0
+    - _FrAddB: 0
+    - _FrAddC: 0
+    - _FrAddMinus1: 2
+    - _FrAddMinusA: 2
+    - _FrAddMinusB: 2
+    - _FrAddMinusC: 2
+    - _FrMul: 1
+    - _FrMul1: 3399
+    - _FrMul2: -44
+    - _FrMulA: 4659
+    - _FrMulB: 193999
+    - _FrMulC: 39999
+    - _FrMulEnd: 0.01
+    - _FrMulEndA: 0.01
+    - _FrMulEndB: 0.01
+    - _FrMulEndC: 0.01
+    - _FrMulMinus1: -199
+    - _FrMulMinusA: -250
+    - _FrMulMinusB: -1990
+    - _FrMulMinusC: -800
+    - _FrMulOldEmis: 1
+    - _MinScale1: 1
+    - _NormalScale: 0
+    - _WaterDepth: 0
+    - _WaterFalloff: 0
+    - _WaterSmoothness: 0
+    - _WaterSpecular: 0
+    - __dirty: 0
+    m_Colors:
+    - _DeepColor: {r: 0, g: 0, b: 0, a: 0}
+    - _FrColorA: {r: 0.735849, g: 0.52638793, b: 0, a: 0}
+    - _FrColorB: {r: 0.20754719, g: 0.0009789985, b: 0.13994312, a: 0}
+    - _FrColorC: {r: 0, g: 0.43920055, b: 0.48235294, a: 0}
+    - _Frenc: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 0}
+    - _Scal1: {r: 4, g: 4, b: 0, a: 0}
+    - _ShalowColor: {r: 1, g: 1, b: 1, a: 0}
+    - _VectorDirection: {r: 0.1, g: 2, b: 1, a: 1}
+  m_BuildTextureStacks: []

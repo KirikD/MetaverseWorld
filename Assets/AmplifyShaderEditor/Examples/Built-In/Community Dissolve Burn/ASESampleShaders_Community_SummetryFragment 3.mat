@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ASESampleShaders_Community_SummetryFragment 3
+  m_Shader: {fileID: 4800000, guid: f2813eff74c20ce499e359ed266de4f5, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: e5cd7dc224030cf42872339fb3d1d899, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BurnRamp:
+        m_Texture: {fileID: 2800000, guid: 4855cd84f5ba0c344b80c8009ce51491, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CheckersA:
+        m_Texture: {fileID: 2800000, guid: 1f2afebdae360f8499fce6f2be367b32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CheckersA1:
+        m_Texture: {fileID: 2800000, guid: 1f2afebdae360f8499fce6f2be367b32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CheckersB:
+        m_Texture: {fileID: 2800000, guid: a61151a08d8413b4585e30c14c713e3d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CheckersB1:
+        m_Texture: {fileID: 2800000, guid: 1f2afebdae360f8499fce6f2be367b32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisolveGuide1:
+        m_Texture: {fileID: 2800000, guid: 1daf96d9aee79bf4b93fa5ea981aaf4b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisolveGuide2:
+        m_Texture: {fileID: 2800000, guid: 1daf96d9aee79bf4b93fa5ea981aaf4b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissA:
+        m_Texture: {fileID: 2800000, guid: 2665c395410e391469e722b3071ed218, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HighVave:
+        m_Texture: {fileID: 2800000, guid: a61151a08d8413b4585e30c14c713e3d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 0bebe40e9ebbecc48b8e9cfea982da7e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AnimDivA: 0.04
+    - _AnimDivB: 0.11
+    - _BitA: 0.18481445
+    - _BitB: 0.18859863
+    - _BitHighMinScale: -0.13
+    - _Cutoff: 0.5
+    - _CutoutScale: 0
+    - _DisplOfset: -0.64
+    - _Displace: 0.06
+    - _DissolveAmount: 0
+    - _EmisAdd: -1
+    - _EmisColorMul: 3
+    - _Float1: 0.166
+    - _HighVaveAnimDivB: 0.253
+    - _MinScale1: 1
+    - __dirty: 0
+    m_Colors:
+    - _BitCol: {r: 0.4528302, g: 0.24991101, b: 0.36044422, a: 1}
+    - _CheckersScal: {r: 10, g: 10, b: 0, a: 0}
+    - _MullCol: {r: 0.36320752, g: 0.64070046, b: 1, a: 1}
+    - _Scal1: {r: 2, g: 2, b: 0, a: 0}
+    - _TilingScalBurn: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
