@@ -5,6 +5,8 @@ ShaderImporter:
   defaultTextures:
   - _DisolveGuide1: {fileID: 2800000, guid: 0bbd24355cfb3074392f4e25176bc9da, type: 3}
   - _TextureSample0: {fileID: 2800000, guid: 0bbd24355cfb3074392f4e25176bc9da, type: 3}
+  - _FrencelNoiseA: {fileID: 2800000, guid: 0bbd24355cfb3074392f4e25176bc9da, type: 3}
+  - _FrencelNoiseB: {fileID: 2800000, guid: 0bbd24355cfb3074392f4e25176bc9da, type: 3}
   nonModifiableTextures: []
   preprocessorOverride: 0
   userData: 

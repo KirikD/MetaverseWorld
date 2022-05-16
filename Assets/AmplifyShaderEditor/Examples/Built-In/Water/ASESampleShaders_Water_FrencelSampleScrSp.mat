@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 111, y: 111}
         m_Offset: {x: 0, y: 0}
     - _DisolveGuide1:
-        m_Texture: {fileID: 2800000, guid: 5798ded558355430c8a9b13ee12a847c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1ebab3d74f527a841bf8a652f9787827, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisolveGuide2:
@@ -39,8 +39,16 @@ Material:
         m_Texture: {fileID: 2800000, guid: b3792c50aed9465489732cb8962693ec, type: 3}
         m_Scale: {x: 3, y: 3}
         m_Offset: {x: 0, y: 0}
+    - _FrencelNoiseA:
+        m_Texture: {fileID: 2800000, guid: a61151a08d8413b4585e30c14c713e3d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrencelNoiseB:
+        m_Texture: {fileID: 2800000, guid: 4f2de2830901651419eb727f6b7e6066, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: 5798ded558355430c8a9b13ee12a847c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6d95329d56916bc40a104ce96966b296, type: 3}
         m_Scale: {x: 1.1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WaterNormal:
@@ -54,15 +62,23 @@ Material:
     m_Floats:
     - _AnimDivB: 1
     - _AnimDivB1: 0.1
+    - _AnimDivBB: -1
     - _AnimDivC: -1
     - _AnimDivC1: -0.1
+    - _AnimDivCC: 1
+    - _CounturMultiple: 2
+    - _Cutoff: 0.5
+    - _DisplaceVal: 0.01
+    - _DisplaceValMinuss: -0.4
     - _Distortion: 0.5
     - _FoamDepth: 0
     - _FoamFalloff: 0
     - _FoamSmoothness: 0
     - _FoamSpecular: 0
-    - _FrMul: 9
+    - _FrMul: 1.37
     - _FrMul2: -44
+    - _FrencelNoiseMinus: -1
+    - _FrencelNoiseMult: 9
     - _NormalScale: 0
     - _WaterDepth: 0
     - _WaterFalloff: 0
@@ -71,6 +87,6 @@ Material:
     - __dirty: 0
     m_Colors:
     - _DeepColor: {r: 0, g: 0, b: 0, a: 0}
-    - _Frenc: {r: 1, g: 0.016675571, b: 0, a: 1}
+    - _Frenc: {r: 0.13207549, g: 0.022505788, b: 0.006852974, a: 1}
     - _ShalowColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

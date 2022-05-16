@@ -2,7 +2,9 @@ fileFormatVersion: 2
 guid: a66b224d48169f0489c88b61022bb349
 ShaderImporter:
   externalObjects: {}
-  defaultTextures: []
+  defaultTextures:
+  - _FrencelNoiseA1: {fileID: 2800000, guid: 0bbd24355cfb3074392f4e25176bc9da, type: 3}
+  - _FrencelNoiseB1: {fileID: 2800000, guid: 0bbd24355cfb3074392f4e25176bc9da, type: 3}
   nonModifiableTextures: []
   preprocessorOverride: 0
   userData: 

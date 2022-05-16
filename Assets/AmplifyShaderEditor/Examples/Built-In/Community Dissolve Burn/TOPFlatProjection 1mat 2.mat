@@ -36,7 +36,7 @@ Material:
     - _AnimDivC: -1
     - _Cutoff: 0.5
     - _Displace: -0.067
-    - _DissolveAmount: 1.59
+    - _DissolveAmount: 1.22
     - _SizeLines: 3
     - __dirty: 0
     m_Colors:
