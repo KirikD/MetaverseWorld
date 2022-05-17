@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 459d8268ad2f9454c81abaa3bc6f3408, type: 3}
+        m_Texture: {fileID: 2800000, guid: 54d7aec97cb916047b0ef2fe9e52a349, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
@@ -28,11 +28,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OpacityNoiseTex:
-        m_Texture: {fileID: 2800000, guid: 77713158d7f212c4da3cea017db39698, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0d8a26cec82234c4f843595e1ae00caa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OpacityTex:
-        m_Texture: {fileID: 2800000, guid: b516a128e21712d409b087501ca1f3db, type: 3}
+        m_Texture: {fileID: 2800000, guid: a8de9c9c15d9c7e4eaa883c727391bee, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShieldPattern:
@@ -52,9 +52,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Blesk: 0.5
     - _HitSize: 0.2
     - _HitTime: 0
     - _IntersectIntensity: 0.2
+    - _MinusOpacity: -0.83
     - _NoAnimMainTex: 1
     - _Opacity: 1
     - _OpacityNoise: 1

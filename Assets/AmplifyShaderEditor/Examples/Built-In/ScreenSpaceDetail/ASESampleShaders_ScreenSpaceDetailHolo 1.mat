@@ -51,15 +51,15 @@ Material:
     - _AnimDivB1: 1
     - _AnimDivC1: -1
     - _Cutoff: 0.5
-    - _DisplScal: 0.05
-    - _DissolveAmount: 0.31
+    - _DisplScal: 0.03
+    - _DissolveAmount: 0.36
     - _DissolveAmount1: 0.28
     - _Min: 2
     - _MinScal: 2
     - _MinScale: 1
     - __dirty: 0
     m_Colors:
-    - _Emis: {r: 0.75977135, g: 0, b: 1, a: 0}
+    - _Emis: {r: 0.7822233, g: 0.08962262, b: 1, a: 0}
     - _Scal: {r: 4, g: 4, b: 0, a: 0}
     - _Scal1: {r: 8, g: 8, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: ccd227cda20159b408e61c91862ac101, type: 3}
+        m_Texture: {fileID: 2800000, guid: a51794475a883744db8d524cee84e5fc, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 1.44, y: 0}
     - _BumpMap:
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _EmissA:
-        m_Texture: {fileID: 2800000, guid: 4855cd84f5ba0c344b80c8009ce51491, type: 3}
+        m_Texture: {fileID: 2800000, guid: 400041796bf519d46a95e74e16a3e3a1, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -92,12 +92,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AnimDivA: 0.04
+    - _AnimDivB: 0.11
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DisolveAmount: 0.451
     - _Displace: 0.034
-    - _DissolveAmount: 1
+    - _DissolveAmount: 0.507
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -117,6 +119,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorD: {r: 0, g: 1, b: 0.55883527, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MullCol: {r: 1, g: 0.023584902, b: 0.7025847, a: 1}
+    - _MullCol: {r: 0.32781458, g: 0, b: 1, a: 1}
     - _TilingScalBurn: {r: 2, g: 2, b: 2, a: 2}
   m_BuildTextureStacks: []
