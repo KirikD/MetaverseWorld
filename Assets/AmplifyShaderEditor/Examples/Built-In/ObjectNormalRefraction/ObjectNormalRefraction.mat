@@ -53,13 +53,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _ChromaticAberration: 0.2
-    - _IndexofRefraction: 1.1
-    - _MinusOpacity1: -0.44
+    - _IndexofRefraction: 1.2
+    - _MinusOpacity1: -0.76
     - _NoAnimMainTex1: 1
     - _NormalScale: 0.25
     - _Opacity: 0.25
     - _Opacity1: 2
-    - _OpacityNoiseMult1: 1
+    - _OpacityNoiseMult1: 1.3
     - _Refl: 1
     - _ShieldAnimSpeedA1: 3.3
     - _ShieldAnimSpeedB1: 0
