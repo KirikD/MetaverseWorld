@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TransparentInnerMaterial
+  m_Shader: {fileID: 4800000, guid: 42fa708d6c54d354b89c6068be64ff88, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo1:
+        m_Texture: {fileID: 2800000, guid: 4ef196526aa6ba54a82446a5668f6e68, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap1:
+        m_Texture: {fileID: 8900000, guid: 960f53fc6edd93747aedccd09b98659c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap1:
+        m_Texture: {fileID: 2800000, guid: d8cd143ad1382a345ae6615488ed8289, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OpacityNoiseTex1:
+        m_Texture: {fileID: 2800000, guid: d8cd143ad1382a345ae6615488ed8289, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OpacityTex1:
+        m_Texture: {fileID: 2800000, guid: d8cd143ad1382a345ae6615488ed8289, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _Float1: 2
+    - _IndexofRefraction1: 1
+    - _MinusOpacity1: 0
+    - _NoAnimMainTex1: 0
+    - _NormalScale1: 0.1
+    - _OpacityNoiseMult1: 1.48
+    - _Refl1: 2
+    - _ShieldAnimSpeedA1: 2.9
+    - _ShieldAnimSpeedB1: 0.4
+    - _Speed: 1
+    m_Colors:
+    - _Albedo: {r: 0.5882353, g: 1, b: 0.68627447, a: 0}
+    - _Color1: {r: 0.27651343, g: 0.5283019, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
